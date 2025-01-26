@@ -83,7 +83,7 @@ def count_syllables(word):
         z -= 1
     elif len(word) > 2 and word[-1] == 'd' and word[-2] == 'e':
         z -= 1
-    return a
+    return z
 
 
 # CONVERTS THE TEXT FILE TO DICTIONARY
