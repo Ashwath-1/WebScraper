@@ -132,7 +132,7 @@ for row in csv_reader:
         y = y.split()
 
         for i in y:
-            # Total words
+            # TOTAL NUMBER OF WORDS
             words += 1
             # COUNTS THE NUMBER OF SYLLABLES
             syllable_per_word = count_syllables(i)
